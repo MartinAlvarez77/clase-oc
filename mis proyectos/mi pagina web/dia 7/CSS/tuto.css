@@ -1,0 +1,18 @@
+
+body{
+    background-color: rgb(161, 168, 67);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 50px 50px 50px 50px;
+    flex-direction: column;
+    background-color: aqua;
+}
