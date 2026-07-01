@@ -6,6 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <header>
+<h1>Formulrio para ingresar a la app</h1>
+   </header>
+   <main>
+<label>Nombre:</label>
+<input type="text" placeholder="Escribe tu nombre" required>
+<br>
+<label>Edad:</label>
+<input type="number" min="18" max="99">
+<br>
+<label>Fecha de Nacimiento:</label>
+<input type="date">
+<br>
+<label for="lenguajes">Seleccione su genero:</label><br>
+        <select name="lenguajes" id="lenguajes" multiple size="4">
+            <option value="masculino" selected>Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select>
+<br>
+<button type="submit">Enviar Datos</button>
+<br>
+<a href="index.html">
+    <button type="button">Volver al Index</button>
+</a>
+   </main>
+<footer>
+    <h3>Derechos de autor de Mr.Gru</h3>
+</footer>
 </body>
 </html>
